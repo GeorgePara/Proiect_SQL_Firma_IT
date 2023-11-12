@@ -78,11 +78,11 @@ ordine de inserarea datelor).
 
 10.	Filtrarea dupa `nume` avand conditia sa inceapa cu litera "P" in tabela `angajat` si afisarea acestora.
 
-   	S-a folosit instructiunea `SELECT` impreuna cu clauzele `WHERE` si `LIKE`
+   	S-a folosit instructiunea `SELECT *` impreuna cu clauzele `WHERE` si `LIKE`
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/13a166c6-d3a4-471d-8610-613946cc7987)
 
-12.	Primele 5 sal
+12.	Utilizarea instructiunii `SELECT *` in tabela `angajat` impreuna cu clauzele `ORDER BY` si `LIMIT` pentru a afisa doar primele 5 randuri de angajati, ordonati descrescator prin `DESC`, in functie de `salariu`.
  
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/b36be892-7c44-45f9-948b-4c769c0f749d)
 
