@@ -2,22 +2,23 @@
 
 ## Descriere
 
-Proiectul actual presupune elaborarea unei [baze de date](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/blob/main/Testare-Manuala-Proiect-Final-SQL.sql) destinată simulării unui sistem de gestionare a angajaților de la o firmă de tehnologia informației. Baza de date include două tabele principale: `departament` și `angajat`, care sunt legate printr-o relație ierarhică (1:n).
+Proiectul actual presupune elaborarea unei [baze de date](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/blob/main/Testare-Manuala-Proiect-Final-SQL.sql) destinata simularii unui sistem de
+gestionare a angajatilor de la o firma de tehnologia informatiei. Baza de date include două tabele principale: `departament` si `angajat`, care sunt legate printr-o relatie ierarhica (1:n).
 
 ## Structura Bazei de Date
 
 ### Tabela `departament`
-- `id`: Identificator unic pentru fiecare departament (cheie primară).
+- `id`: Identificator unic pentru fiecare departament (cheie primara).
 - `nume`: Numele departamentului.
-- `manager_id`: ID-ul managerului departamentului (cheie externă).
+- `manager_id`: ID-ul managerului departamentului (cheie secundara).
 
 ### Tabela `angajat`
-- `id`: Identificator unic pentru fiecare angajat (cheie primară).
+- `id`: Identificator unic pentru fiecare angajat (cheie primara).
 - `prenume`: Prenumele angajatului.
 - `nume`: Numele angajatului.
 - `varsta`: Varsta angajatului.
-- `departament_id`: ID-ul departamentului în care lucrează angajatul (cheie externă).
-- `manager_id`: ID-ul managerului angajatului (cheie externă).
+- `departament_id`: ID-ul departamentului in care lucreaza angajatul (cheie secundara).
+- `manager_id`: ID-ul managerului angajatului (cheie secundara).
 - `salariu`: Salariul angajatului.
 - `data_angajare`: Data la care angajatul a fost angajat.
 
@@ -31,7 +32,7 @@ Se foloseste instuctiunea `CREATE` pentru a realiza baza de date si tabelele: `d
 
 Se defineste cate o cheie primara id, unica, cu auto-incrementare, pentru fiecare tabela in parte.
 
-Se definesc doua chei straine in tabela angajat:
+Se definesc doua chei secundare in tabela `angajat`:
 
 a. `departament_id` - care face referire la id din tabelul departament.
 
@@ -150,12 +151,19 @@ filtrari cu `AND` si `OR`:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-18. relatie
+18. Relatia dintre tabele este o relatie de tip ierarhie sau arbore, deoarece angajatii pot avea manageri, si acestia la randul lor pot avea manageri, si asa mai departe.
+
+    Relatia ierarhica se incadreaza de obicei in categoria "unul la multi" (1:n).
+
+    Aceasta poate fi o relatie de auto-asociere, unde o coloana dintr-un tabel se refera la cheia primara a aceluiasi tabel.
+    
+    In contextul relatiei ierarhice dintre manageri si subordonati, un manager poate avea mai multi subordonati, dar fiecare subordonat este asociat cu un singur manager.
+    
+    Coloana `manager_id` face referire la `id` in acelasi tabel si indica un manager pentru fiecare subordonat (1:n).
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/2f1394f0-e872-4f41-a903-95159e9d9dca)
 
 
- 
 
 
 
