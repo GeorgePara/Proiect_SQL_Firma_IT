@@ -104,12 +104,16 @@ b) Sau angajatii care au un manager (adica `manager_id` nu este `NULL`) si au un
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/0b9680c0-787e-4007-bf83-b5eb7e6e7894)
 
 
-14.	Order by
+14.	Afisarea coloanelor `prenume`, `nume` din tabela `angajat` cu instructiunea `SELECT` si ordonarea descrescatoarea a angajatilor folosind `ORDER BY` si `DESC` 
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/cfea8664-61d1-4767-a11b-e190a5b5bf9f)
 
 
-15.	Inner join
+15.	Afisarea coloanelor `prenume`, `nume` si `departament_id` din tabela `angajat` cu instructiunea `SELECT`, combinarea datelor din tabelele `departament` si `angajat` cu ajutorul clauzei `JOIN`.
+
+    Se realizeaza un `INNER JOIN` pe baza conditiei specificata in clauza `ON` si se aplica o conditie de filtrare cu `AND`.
+   	
+   	Rezultatul final este o tabela cu prenumele, numele angajatilor si id-ul departamentului `Financiar` din care fac parte acestia.
  
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/0b4771f0-7346-4649-ae3d-b95b480b8076)
 
