@@ -30,8 +30,7 @@ Acest proiect a fost dezvoltat folosind MySQL Workbench, un instrument puternic 
 
 
 1.	Create data base
- ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/6caa85a0-45e2-4486-a9e6-48727d6a7873)
-
+![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/7f720023-bcfe-4a32-81a0-61d2cddf106a)
 
 2.	Create table dep
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/14336eef-881c-4321-89df-6471c474eedf)
