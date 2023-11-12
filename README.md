@@ -94,12 +94,12 @@ ordine de inserarea datelor).
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/b36be892-7c44-45f9-948b-4c769c0f749d)
 
 
-14.	Selectarea coloanelor `prenume`, `nume`, `salariu`, `departament_id`, `manager_id` din tabela `angajat` cu instructiunea `SELECT` pentru angajatii care indeplinesc una din cele doua conditii folosind filtrari
-cu `AND` si `OR`:
+14.	Selectarea coloanelor `prenume`, `nume`, `salariu`, `departament_id`, `manager_id` din tabela `angajat` cu instructiunea `SELECT` pentru a afisa angajatii care indeplinesc una din cele doua conditii folosind
+filtrari cu `AND` si `OR`:
 
-a)Angajatii cu salariul mai mare de 4000 si care sunt in departamentul cu departament_id = 1.
+a) Angajatii cu salariul mai mare de 4000 si care sunt in departamentul cu `departament_id` = 1.
 
-b)Sau angajatii care au un manager (adica manager_id nu este NULL) si au un salariu mai mic de 3500.
+b) Sau angajatii care au un manager (adica `manager_id` nu este `NULL`) si au un `salariu` mai mic de 3500.
  
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/0b9680c0-787e-4007-bf83-b5eb7e6e7894)
 
