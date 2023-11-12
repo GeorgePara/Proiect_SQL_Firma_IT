@@ -49,9 +49,9 @@ b. `manager_id` - o coloana tot din tabela angajat - care e referinta pentru id 
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/383fd439-0ffb-462a-88ce-99824c5bbacc)
 
-4.	Se populeaza Tabela `departament` si Tabela `angajat` cu instructiunea `INSERT`.
-   
-4.1. Se populeaza mai intai tabela departament (datorita constrangerii de integritate impuse prin referinta: departament_id din tabela angajat este cheie straina pentru id din tabela departament, se impune aceasta 
+4.	Populare Tabela `departament` si Tabela `angajat` cu instructiunea `INSERT`.
+
+Se populeaza mai intai tabela departament (datorita constrangerii de integritate impuse prin referinta: departament_id din tabela angajat este cheie straina pentru id din tabela departament, se impune aceasta 
 ordine de inserarea datelor).
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/98283855-6e13-4263-b404-6bda1f2e6d0e)
