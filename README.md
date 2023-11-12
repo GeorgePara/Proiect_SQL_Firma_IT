@@ -56,13 +56,13 @@ b. `manager_id` - o coloana tot din tabela angajat - care e referinta pentru id 
 Se populeaza mai intai tabela departament (datorita constrangerii de integritate impuse prin referinta: departament_id din tabela angajat este cheie straina pentru id din tabela departament, se impune aceasta 
 ordine de inserarea datelor).
 
-5.	Select from angajat and dep
+5.	Afisarea datelor din tabela `angajat` si tabela `departament` cu instructiunea `SELECT * `
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/fb7d4cd0-e799-48bb-982d-1d5a2ede0c68)
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/1f0f8e34-348c-44d1-917e-cad745e30809)
 
-6.	Drop varsta
+6.	Stergerea coloanei `varsta` din tabela `angajat` folosind instructiunile `ALTER` si `DROP COLUMN`
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/997bb215-9b32-491f-8c10-3a091d8c7d24) 
 
