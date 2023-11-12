@@ -85,7 +85,7 @@ Acest proiect a fost dezvoltat folosind MySQL Workbench, un instrument puternic 
 
 16.	Functii aggregate avg si count
 
-![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/ba820c37-8315-4576-a220-61072c272fa6)
+![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/f3d8c4df-8f77-4714-a49e-d1e420946cf4)
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/1cd73d60-f987-48cc-9970-81059e23e0e3)
 
