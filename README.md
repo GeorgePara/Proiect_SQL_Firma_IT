@@ -27,7 +27,7 @@ Acest proiect a fost dezvoltat folosind MySQL Workbench, un instrument puternic 
 
 ## Cum se utilizeaza
 
-Se foloseste instuctiunea CREATE pentru realiza baza de date si tabelele: `departament` si `angajat`
+Se foloseste instuctiunea `CREATE` pentru realiza baza de date si tabelele: `departament` si `angajat`
 
 Se defineste cate o cheie primara id, unica, cu auto-incrementare, pentru fiecare tabela in parte.
 
@@ -35,7 +35,7 @@ Se definesc doua chei straine in tabela angajat:
 1. `departament_id` - care face referire la id din tabelul departament.
 2. `manager_id` - o coloana tot din tabela angajat - care e referinta pentru id din tabela angajat.
 
-1.	Creare baza de date
+1.	Creare [baze de date](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/blob/main/Testare-Manuala-Proiect-Final-SQL.sql)
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/7f720023-bcfe-4a32-81a0-61d2cddf106a)
 
@@ -49,7 +49,8 @@ Se definesc doua chei straine in tabela angajat:
 
 4.	Se populeaza Tabela `departament` si Tabela `angajat` cu instructiunea `INSERT`.
    
-4.1. Se populeaza mai intai tabela departament (datorita constrangerii de integritate impuse prin referinta: departament_id din tabela angajat este cheie straina pentru id din tabela departament, se impune aceasta ordine de inserarea datelor).
+4.1. Se populeaza mai intai tabela departament (datorita constrangerii de integritate impuse prin referinta: departament_id din tabela angajat este cheie straina pentru id din tabela departament, se impune aceasta 
+ordine de inserarea datelor).
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/98283855-6e13-4263-b404-6bda1f2e6d0e)
 
