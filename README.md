@@ -2,7 +2,7 @@
 
 ## Descriere
 
-Proiectul actual presupune elaborarea unei baze de date destinată simulării unui sistem de gestionare a angajaților de la o firmă de tehnologia informației. Baza de date include două tabele principale: `departament` și `angajat`, care sunt legate printr-o relație ierarhică.
+Proiectul actual presupune elaborarea unei baze de date destinată simulării unui sistem de gestionare a angajaților de la o firmă de tehnologia informației. Baza de date include două tabele principale: `departament` și `angajat`, care sunt legate printr-o relație ierarhică (1:n).
 
 ## Structura Bazei de Date
 
