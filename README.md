@@ -27,7 +27,7 @@ Acest proiect a fost dezvoltat folosind MySQL Workbench, un instrument puternic 
 
 ## Cum se utilizeaza
 
-Se foloseste instuctiunea `CREATE` pentru realiza baza de date si tabelele: `departament` si `angajat`
+Se foloseste instuctiunea `CREATE` pentru a realiza baza de date si tabelele: `departament` si `angajat`
 
 Se defineste cate o cheie primara id, unica, cu auto-incrementare, pentru fiecare tabela in parte.
 
