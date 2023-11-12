@@ -30,51 +30,53 @@ Acest proiect a fost dezvoltat folosind MySQL Workbench, un instrument puternic 
 
 
 1.	Create data base
+   
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/7f720023-bcfe-4a32-81a0-61d2cddf106a)
 
-2.	Create table dep
+3.	Create table dep
+   
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/14336eef-881c-4321-89df-6471c474eedf)
 
 
-3.	Create angajat
+5.	Create angajat
 
 
-4.	Se poP tabelele
+6.	Se poP tabelele
 
 
-5.	Select from angajat and dep
+7.	Select from angajat and dep
  
  
-6.	Drop varsta
+8.	Drop varsta
  
 
-7.	Update nume
+9.	Update nume
  
 
-8.	Delete id 14 duplicate
+10.	Delete id 14 duplicate
 
 
-9.	Filtru nume cu P
+11.	Filtru nume cu P
  
 
-10.	Primele 5 sal
+12.	Primele 5 sal
  
 
-11.	AND/OR
+13.	AND/OR
  
 
-12.	Order by
+14.	Order by
 
 
 
-13.	Inner join
+15.	Inner join
  
 
-14.	Functii aggregate avg si count
+16.	Functii aggregate avg si count
  
  
 
-15.	Subquery
+17.	Subquery
  
 
 
