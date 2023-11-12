@@ -74,7 +74,8 @@ ordine de inserarea datelor).
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/d46a11f6-a160-4481-8500-10d4dd45cf14)
 
-10.	Filtrarea dupa `nume` avand conditia sa inceapa cu litera "P" in tabela `angajat` si afisarea acestora. S-a folosit instructiunea `SELECT` impreuna cu clauzele `WHERE` si `LIKE`
+10.	Filtrarea dupa `nume` avand conditia sa inceapa cu litera "P" in tabela `angajat` si afisarea acestora.
+    S-a folosit instructiunea `SELECT` impreuna cu clauzele `WHERE` si `LIKE`
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/13a166c6-d3a4-471d-8610-613946cc7987)
 
