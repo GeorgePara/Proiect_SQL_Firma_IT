@@ -38,7 +38,7 @@ a. `departament_id` - care face referire la id din tabelul departament.
 
 b. `manager_id` - o coloana tot din tabela angajat - care e referinta pentru id din tabela angajat.
 
-1.	Creare [baze de date](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/blob/main/Testare-Manuala-Proiect-Final-SQL.sql)
+1.	Crearea [bazei de date](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/blob/main/Testare-Manuala-Proiect-Final-SQL.sql)
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/7f720023-bcfe-4a32-81a0-61d2cddf106a)
 
