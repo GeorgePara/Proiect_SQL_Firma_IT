@@ -35,7 +35,8 @@ Acest proiect a fost dezvoltat folosind MySQL Workbench, un instrument puternic 
 
 3.	Create table dep
    
-![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/14336eef-881c-4321-89df-6471c474eedf)
+![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/cae95519-3b11-4680-a06a-dacca003cb80)
+
 
 
 5.	Create angajat
