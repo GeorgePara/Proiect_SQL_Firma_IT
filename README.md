@@ -37,20 +37,25 @@ a. `departament_id` - care face referire la id din tabelul departament.
 
 b. `manager_id` - o coloana tot din tabela angajat - care e referinta pentru id din tabela angajat.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 1.	Creare [baze de date](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/blob/main/Testare-Manuala-Proiect-Final-SQL.sql)
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/7f720023-bcfe-4a32-81a0-61d2cddf106a)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 2.	Creare Tabela `departament`
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/cae95519-3b11-4680-a06a-dacca003cb80)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 3.	Creare Tabela `angajat`
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/383fd439-0ffb-462a-88ce-99824c5bbacc)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 4.	Populare Tabela `departament` si Tabela `angajat` cu instructiunea `INSERT`.
 
@@ -59,6 +64,7 @@ ordine de inserarea datelor).
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/98283855-6e13-4263-b404-6bda1f2e6d0e)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 5.	Afisarea datelor din tabela `angajat` si tabela `departament` cu instructiunea `SELECT * `
 
@@ -66,21 +72,25 @@ ordine de inserarea datelor).
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/1f0f8e34-348c-44d1-917e-cad745e30809)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 6.	Stergerea coloanei `varsta` din tabela `angajat` folosind instructiunile `ALTER` si `DROP COLUMN`
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/997bb215-9b32-491f-8c10-3a091d8c7d24) 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 8.	Actualizarea tabelei `angajat` prin modificarea numelui scris gresit cu ajutorul instructiunii `UPDATE` si clauzelor `SET` si `WHERE`
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/e14fa58e-c56f-45b6-a3fb-c21cb4c65495)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 9.	Stergerea id-ului angajatului duplicat cu instructiunea `DELETE` si clauza `WHERE` aplicata pe `id`
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/d46a11f6-a160-4481-8500-10d4dd45cf14)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 10.	Filtrarea dupa `nume` avand conditia sa inceapa cu litera "P" in tabela `angajat` si afisarea acestora.
 
@@ -88,11 +98,13 @@ ordine de inserarea datelor).
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/13a166c6-d3a4-471d-8610-613946cc7987)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 12.	Utilizarea instructiunii `SELECT *` in tabela `angajat` impreuna cu clauzele `ORDER BY` si `LIMIT` pentru a afisa doar primele 5 randuri de angajati, ordonati descrescator prin `DESC`, in functie de `salariu`.
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/b36be892-7c44-45f9-948b-4c769c0f749d)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 14.	Selectarea coloanelor `prenume`, `nume`, `salariu`, `departament_id`, `manager_id` din tabela `angajat` cu instructiunea `SELECT` pentru a afisa angajatii care indeplinesc una din cele doua conditii folosind
 filtrari cu `AND` si `OR`:
@@ -103,11 +115,13 @@ filtrari cu `AND` si `OR`:
  
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/0b9680c0-787e-4007-bf83-b5eb7e6e7894)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 14.	Afisarea coloanelor `prenume`, `nume` din tabela `angajat` cu instructiunea `SELECT` si ordonarea descrescatoarea a angajatilor folosind `ORDER BY` si `DESC` 
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/cfea8664-61d1-4767-a11b-e190a5b5bf9f)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 15.	Afisarea coloanelor `prenume`, `nume` si `departament_id` din tabela `angajat` cu instructiunea `SELECT`, combinarea datelor din tabelele `departament` si `angajat` cu ajutorul clauzei `JOIN`.
 
@@ -130,11 +144,13 @@ filtrari cu `AND` si `OR`:
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/1cd73d60-f987-48cc-9970-81059e23e0e3)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 17.	Subquery
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/65b8619c-082e-40c3-9529-a00faaa1cc83)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 18. relatie
 
