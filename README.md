@@ -56,7 +56,7 @@ b. `manager_id` - o coloana tot din tabela angajat - care e referinta pentru id 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-4.	Popularea tabelei `departament` si Tabela `angajat` cu instructiunea `INSERT`
+4.	Popularea tabelei `departament` si a tabelei `angajat` cu instructiunea `INSERT`
 
   	Se populeaza mai intai tabela departament (datorita constrangerii de integritate impuse prin referinta: departament_id din tabela angajat este cheie straina pentru id din tabela departament, se impune aceasta 
 ordine de inserarea datelor).
