@@ -79,19 +79,19 @@ ordine de inserarea datelor).
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-8.	Actualizarea tabelei `angajat` prin modificarea numelui scris gresit cu ajutorul instructiunii `UPDATE` si clauzelor `SET` si `WHERE`
+7.	Actualizarea tabelei `angajat` prin modificarea numelui scris gresit cu ajutorul instructiunii `UPDATE` si clauzelor `SET` si `WHERE`
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/e14fa58e-c56f-45b6-a3fb-c21cb4c65495)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-9.	Stergerea id-ului angajatului duplicat cu instructiunea `DELETE` si clauza `WHERE` aplicata pe `id`
+8.	Stergerea id-ului angajatului duplicat cu instructiunea `DELETE` si clauza `WHERE` aplicata pe `id`
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/d46a11f6-a160-4481-8500-10d4dd45cf14)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-10.	Filtrarea dupa `nume` avand conditia sa inceapa cu litera "P" in tabela `angajat` si afisarea acestora
+9.	Filtrarea dupa `nume` avand conditia sa inceapa cu litera "P" in tabela `angajat` si afisarea acestora
 
    	S-a folosit instructiunea `SELECT *` impreuna cu clauzele `WHERE` si `LIKE`.
 
@@ -99,13 +99,13 @@ ordine de inserarea datelor).
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-12.	Utilizarea instructiunii `SELECT *` in tabela `angajat` impreuna cu clauzele `ORDER BY` si `LIMIT` pentru a afisa doar primele 5 randuri de angajati, ordonati descrescator prin `DESC`, in functie de `salariu`
+10.	Utilizarea instructiunii `SELECT *` in tabela `angajat` impreuna cu clauzele `ORDER BY` si `LIMIT` pentru a afisa doar primele 5 randuri de angajati, ordonati descrescator prin `DESC`, in functie de `salariu`
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/b36be892-7c44-45f9-948b-4c769c0f749d)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-14.	Selectarea coloanelor `prenume`, `nume`, `salariu`, `departament_id`, `manager_id` din tabela `angajat` cu instructiunea `SELECT` pentru a afisa angajatii care indeplinesc una din cele doua conditii folosind
+11.	Selectarea coloanelor `prenume`, `nume`, `salariu`, `departament_id`, `manager_id` din tabela `angajat` cu instructiunea `SELECT` pentru a afisa angajatii care indeplinesc una din cele doua conditii folosind
 filtrari cu `AND` si `OR`:
 
     a. angajatii cu salariul mai mare de 4000 si care sunt in departamentul cu `departament_id` = 1.
@@ -116,13 +116,13 @@ filtrari cu `AND` si `OR`:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-14.	Afisarea coloanelor `prenume`, `nume` din tabela `angajat` cu instructiunea `SELECT` si ordonarea descrescatoarea a angajatilor folosind `ORDER BY` si `DESC` 
+12.	Afisarea coloanelor `prenume`, `nume` din tabela `angajat` cu instructiunea `SELECT` si ordonarea descrescatoarea a angajatilor folosind `ORDER BY` si `DESC` 
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/cfea8664-61d1-4767-a11b-e190a5b5bf9f)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-15.	Afisarea coloanelor `prenume`, `nume` si `departament_id` din tabela `angajat` cu instructiunea `SELECT`, combinarea datelor din tabelele `departament` si `angajat` cu ajutorul clauzei `JOIN`
+13.	Afisarea coloanelor `prenume`, `nume` si `departament_id` din tabela `angajat` cu instructiunea `SELECT`, combinarea datelor din tabelele `departament` si `angajat` cu ajutorul clauzei `JOIN`
 
     Se realizeaza un `INNER JOIN` pe baza conditiei specificata in clauza `ON` si se aplica o conditie de filtrare cu `AND`.
    	
@@ -132,7 +132,7 @@ filtrari cu `AND` si `OR`:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-16.	Folosirea functiilor agregate pentru:
+14.	Folosirea functiilor agregate pentru:
     
     a. a calcula salariul mediu din departamentul `QA` (am folosit instructiunea `SELECT` impreuna cu functia agregata `AVG` aplicata pe coloana `salariu`)
    	
@@ -145,13 +145,13 @@ filtrari cu `AND` si `OR`:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-17.	Utilizarea Subquery-ului `(SELECT MAX(salariu) FROM angajat)` pentru a afisa `salariu_maxim` din intreaba tabela `angajat` alaturi de fiecare angajat
+15.	Utilizarea Subquery-ului `(SELECT MAX(salariu) FROM angajat)` pentru a afisa `salariu_maxim` din intreaba tabela `angajat` alaturi de fiecare angajat
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/65b8619c-082e-40c3-9529-a00faaa1cc83)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-18. Relatia dintre tabele este o relatie de tip ierarhie sau arbore, deoarece angajatii pot avea manageri, si acestia la randul lor pot avea manageri, si asa mai departe.
+16. Relatia dintre tabele este o relatie de tip ierarhie sau arbore, deoarece angajatii pot avea manageri, si acestia la randul lor pot avea manageri, si asa mai departe.
 
     Relatia ierarhica se incadreaza de obicei in categoria "unul la multi" (1:n).
 
