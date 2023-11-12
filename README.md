@@ -30,55 +30,72 @@ Acest proiect a fost dezvoltat folosind MySQL Workbench, un instrument puternic 
 
 
 1.	Create data base
-   
+
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/7f720023-bcfe-4a32-81a0-61d2cddf106a)
 
-3.	Create table dep
-   
+2.	Create table dep
+
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/cae95519-3b11-4680-a06a-dacca003cb80)
 
+4.	Create angajat
 
+![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/383fd439-0ffb-462a-88ce-99824c5bbacc)
 
-5.	Create angajat
+4.	Se poP tabelele
 
+![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/98283855-6e13-4263-b404-6bda1f2e6d0e)
 
-6.	Se poP tabelele
+5.	Select from angajat and dep
 
+![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/fb7d4cd0-e799-48bb-982d-1d5a2ede0c68)
 
-7.	Select from angajat and dep
- 
- 
-8.	Drop varsta
- 
+![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/1f0f8e34-348c-44d1-917e-cad745e30809)
 
-9.	Update nume
- 
+6.	Drop varsta
 
-10.	Delete id 14 duplicate
+![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/997bb215-9b32-491f-8c10-3a091d8c7d24) 
 
+8.	Update nume
 
-11.	Filtru nume cu P
- 
+![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/e14fa58e-c56f-45b6-a3fb-c21cb4c65495)
+
+9.	Delete id 14 duplicate
+
+![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/d46a11f6-a160-4481-8500-10d4dd45cf14)
+
+10.	Filtru nume cu P
+
+![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/13a166c6-d3a4-471d-8610-613946cc7987)
 
 12.	Primele 5 sal
  
+![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/b36be892-7c44-45f9-948b-4c769c0f749d)
 
 13.	AND/OR
  
+![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/0b9680c0-787e-4007-bf83-b5eb7e6e7894)
 
 14.	Order by
 
-
+![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/cfea8664-61d1-4767-a11b-e190a5b5bf9f)
 
 15.	Inner join
  
+![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/0b4771f0-7346-4649-ae3d-b95b480b8076)
 
 16.	Functii aggregate avg si count
- 
- 
+
+![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/ba820c37-8315-4576-a220-61072c272fa6)
+
+![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/1cd73d60-f987-48cc-9970-81059e23e0e3)
 
 17.	Subquery
- 
+
+![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/65b8619c-082e-40c3-9529-a00faaa1cc83)
+
+18. relatie
+
+![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/2f1394f0-e872-4f41-a903-95159e9d9dca)
 
 
  
