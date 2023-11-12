@@ -97,9 +97,9 @@ ordine de inserarea datelor).
 14.	Selectarea coloanelor `prenume`, `nume`, `salariu`, `departament_id`, `manager_id` din tabela `angajat` cu instructiunea `SELECT` pentru a afisa angajatii care indeplinesc una din cele doua conditii folosind
 filtrari cu `AND` si `OR`:
 
-a) Angajatii cu salariul mai mare de 4000 si care sunt in departamentul cu `departament_id` = 1.
-
-b) Sau angajatii care au un manager (adica `manager_id` nu este `NULL`) si au un `salariu` mai mic de 3500.
+    a. angajatii cu salariul mai mare de 4000 si care sunt in departamentul cu `departament_id` = 1.
+   	
+    b. sau angajatii care au un manager (adica `manager_id` nu este `NULL`) si au un `salariu` mai mic de 3500. 
  
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/0b9680c0-787e-4007-bf83-b5eb7e6e7894)
 
@@ -117,8 +117,14 @@ b) Sau angajatii care au un manager (adica `manager_id` nu este `NULL`) si au un
  
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/0b4771f0-7346-4649-ae3d-b95b480b8076)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-16.	Functii aggregate avg si count
+16.	Folosirea functiilor agregate pentru:
+    
+    a. a calcula salariul mediu din departamentul `QA` (am folosit instructiunea `SELECT` impreuna cu functia agregata `AVG` aplicata pe coloana `salariu`)
+   	
+   	b. a obtine numarul total de angajati din departamentul `QA` (am folosit instructiunea `SELECT` impreuna cu functia agregata `COUNT` aplicata pe totalul de angajati `*`)
+
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/f3d8c4df-8f77-4714-a49e-d1e420946cf4)
 
