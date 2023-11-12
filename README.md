@@ -2,7 +2,7 @@
 
 ## Descriere
 
-Acest proiect reprezintă o bază de date relațională pentru gestionarea resurselor umane în cadrul unei firme IT. Baza de date include două tabele principale: `departament` și `angajat`, care sunt legate printr-o relație ierarhică.
+Proiectul actual presupune elaborarea unei baze de date destinată simulării unui sistem de gestionare a angajaților de la o firmă de tehnologia informației. Baza de date include două tabele principale: `departament` și `angajat`, care sunt legate printr-o relație ierarhică.
 
 ## Structura Bazei de Date
 
