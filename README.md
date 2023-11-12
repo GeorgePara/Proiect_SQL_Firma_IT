@@ -145,7 +145,7 @@ filtrari cu `AND` si `OR`:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-15.	Utilizarea Subquery-ului `(SELECT MAX(salariu) FROM angajat)` pentru a afisa `salariu_maxim` din intreaba tabela `angajat` alaturi de fiecare angajat
+15.	Utilizarea Subquery-ului `(SELECT MAX(salariu) FROM angajat)` pentru a afisa `salariu_maxim` din intreaga tabela `angajat` alaturi de fiecare angajat
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/65b8619c-082e-40c3-9529-a00faaa1cc83)
 
