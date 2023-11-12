@@ -11,7 +11,7 @@
 
 #Relatia dintre tabele este o relatie de tip ierarhie sau arbore, deoarece angajatii pot avea manageri, si acestia la randul lor pot avea manageri, si asa mai departe. Relatia ierarhica se incadreaza de obicei in categoria "unul la multi" (1:n). 
 
-#Se foloseste instuctiunea CREATE pentru realiza baza de date si tabelele:
+#Se foloseste instuctiunea CREATE pentru a realiza baza de date si tabelele:
 CREATE DATABASE Firma_IT;
 USE Firma_IT;
 
@@ -116,7 +116,7 @@ SELECT COUNT(*) AS numar_angajati
 FROM angajat
 WHERE departament_id = (SELECT id FROM departament WHERE nume = 'QA');
 
-#Subquery-ul (SELECT MAX(salariu) FROM angajat) este utilizat in clauza SELECT pentru a afisa salariul maxim din intreaga tabela angajat alaturi de fiecare angajat.
+#Subquery-ul (SELECT MAX(salariu) FROM angajat) este utilizat in instructiunea SELECT pentru a afisa salariul maxim din intreaga tabela angajat alaturi de fiecare angajat.
 SELECT concat(prenume, ' ', nume) AS Angajat, salariu,(SELECT MAX(salariu) FROM angajat) AS salariu_maxim
 FROM angajat;
 
