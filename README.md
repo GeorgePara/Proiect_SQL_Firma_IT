@@ -44,19 +44,19 @@ b. `manager_id` - o coloana tot din tabela angajat - care e referinta pentru id 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-2.	Creare Tabela `departament`
+2.	Crearea tabelei `departament`
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/cae95519-3b11-4680-a06a-dacca003cb80)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-3.	Creare Tabela `angajat`
+3.	Crearea tabelei `angajat`
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/383fd439-0ffb-462a-88ce-99824c5bbacc)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-4.	Populare Tabela `departament` si Tabela `angajat` cu instructiunea `INSERT`.
+4.	Popularea tabelei `departament` si Tabela `angajat` cu instructiunea `INSERT`
 
   	Se populeaza mai intai tabela departament (datorita constrangerii de integritate impuse prin referinta: departament_id din tabela angajat este cheie straina pentru id din tabela departament, se impune aceasta 
 ordine de inserarea datelor).
@@ -91,15 +91,15 @@ ordine de inserarea datelor).
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-10.	Filtrarea dupa `nume` avand conditia sa inceapa cu litera "P" in tabela `angajat` si afisarea acestora.
+10.	Filtrarea dupa `nume` avand conditia sa inceapa cu litera "P" in tabela `angajat` si afisarea acestora
 
-   	S-a folosit instructiunea `SELECT *` impreuna cu clauzele `WHERE` si `LIKE`
+   	S-a folosit instructiunea `SELECT *` impreuna cu clauzele `WHERE` si `LIKE`.
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/13a166c6-d3a4-471d-8610-613946cc7987)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-12.	Utilizarea instructiunii `SELECT *` in tabela `angajat` impreuna cu clauzele `ORDER BY` si `LIMIT` pentru a afisa doar primele 5 randuri de angajati, ordonati descrescator prin `DESC`, in functie de `salariu`.
+12.	Utilizarea instructiunii `SELECT *` in tabela `angajat` impreuna cu clauzele `ORDER BY` si `LIMIT` pentru a afisa doar primele 5 randuri de angajati, ordonati descrescator prin `DESC`, in functie de `salariu`
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/b36be892-7c44-45f9-948b-4c769c0f749d)
 
@@ -122,7 +122,7 @@ filtrari cu `AND` si `OR`:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-15.	Afisarea coloanelor `prenume`, `nume` si `departament_id` din tabela `angajat` cu instructiunea `SELECT`, combinarea datelor din tabelele `departament` si `angajat` cu ajutorul clauzei `JOIN`.
+15.	Afisarea coloanelor `prenume`, `nume` si `departament_id` din tabela `angajat` cu instructiunea `SELECT`, combinarea datelor din tabelele `departament` si `angajat` cu ajutorul clauzei `JOIN`
 
     Se realizeaza un `INNER JOIN` pe baza conditiei specificata in clauza `ON` si se aplica o conditie de filtrare cu `AND`.
    	
@@ -145,7 +145,7 @@ filtrari cu `AND` si `OR`:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-17.	Utilizarea Subquery-ului `(SELECT MAX(salariu) FROM angajat)` pentru a afisa `salariu_maxim` din intreaba tabela `angajat` alaturi de fiecare angajat.
+17.	Utilizarea Subquery-ului `(SELECT MAX(salariu) FROM angajat)` pentru a afisa `salariu_maxim` din intreaba tabela `angajat` alaturi de fiecare angajat
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/65b8619c-082e-40c3-9529-a00faaa1cc83)
 
