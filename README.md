@@ -7,13 +7,11 @@ Acest proiect reprezintă o bază de date relațională pentru gestionarea resur
 ## Structura Bazei de Date
 
 ### Tabela `departament`
-
 - `id`: Identificator unic pentru fiecare departament (cheie primară).
 - `nume`: Numele departamentului.
 - `manager_id`: ID-ul managerului departamentului (cheie externă).
 
 ### Tabela `angajat`
-
 - `id`: Identificator unic pentru fiecare angajat (cheie primară).
 - `prenume`: Prenumele angajatului.
 - `nume`: Numele angajatului.
