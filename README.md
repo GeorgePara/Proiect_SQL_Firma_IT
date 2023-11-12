@@ -66,7 +66,7 @@ ordine de inserarea datelor).
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/997bb215-9b32-491f-8c10-3a091d8c7d24) 
 
-8.	Update nume
+8.	Actualizarea tabelei `angajat` prin modificarea numelui scris gresit cu ajutorul instructiunii `UPDATE` si clauzelor `SET` si `WHERE`
 
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/e14fa58e-c56f-45b6-a3fb-c21cb4c65495)
 
