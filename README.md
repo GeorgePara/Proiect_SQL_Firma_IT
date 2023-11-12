@@ -32,7 +32,9 @@ Se foloseste instuctiunea `CREATE` pentru realiza baza de date si tabelele: `dep
 Se defineste cate o cheie primara id, unica, cu auto-incrementare, pentru fiecare tabela in parte.
 
 Se definesc doua chei straine in tabela angajat:
+
 a. `departament_id` - care face referire la id din tabelul departament.
+
 b. `manager_id` - o coloana tot din tabela angajat - care e referinta pentru id din tabela angajat.
 
 1.	Creare [baze de date](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/blob/main/Testare-Manuala-Proiect-Final-SQL.sql)
