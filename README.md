@@ -83,10 +83,10 @@ ordine de inserarea datelor).
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/13a166c6-d3a4-471d-8610-613946cc7987)
 
 12.	Utilizarea instructiunii `SELECT *` in tabela `angajat` impreuna cu clauzele `ORDER BY` si `LIMIT` pentru a afisa doar primele 5 randuri de angajati, ordonati descrescator prin `DESC`, in functie de `salariu`.
- 
+
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/b36be892-7c44-45f9-948b-4c769c0f749d)
 
-13.	AND/OR
+14.	AND/OR
  
 ![image](https://github.com/GeorgePara/Testare-Manuala-Proiect-Final-SQL/assets/135150121/0b9680c0-787e-4007-bf83-b5eb7e6e7894)
 
